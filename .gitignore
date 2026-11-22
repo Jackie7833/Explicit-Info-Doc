@@ -1,0 +1,19 @@
+# 本地缓存
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# 凭证与个人配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# 执行产物与运行状态
+work/
+tmp/
+outputs/
+state.json
+dataset-state.json

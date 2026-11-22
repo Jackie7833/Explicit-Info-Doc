@@ -1,0 +1,6 @@
+interface:
+  display_name: "三方服务Explicit Info"
+  short_description: "确认范围与配比，生成评测说明；确认示例后补齐单轮评测集并交付多维表格"
+  default_prompt: "使用 $Explicit-Info-Doc 处理这份来源文档或接续当前项目；先交付评测说明，确认 showcase 和修改方向后，再按 BMK 补齐单轮评测集并交付多维表格。"
+policy:
+  allow_implicit_invocation: true
